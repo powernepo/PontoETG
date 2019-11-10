@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355909804260",
+    "firebase_url": "https://etg-hml.firebaseio.com",
+    "project_id": "etg-hml",
+    "storage_bucket": "etg-hml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355909804260:android:4d702f59161fb79db90cf1",
+        "android_client_info": {
+          "package_name": "br.com.powernepo.pontoetg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355909804260-973jjscnk2riv0g4nrk0roq74iah3647.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGATR0Q8-c5oyWO07XYQa1387xZnCDN4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355909804260-973jjscnk2riv0g4nrk0roq74iah3647.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
