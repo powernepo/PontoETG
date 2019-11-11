@@ -3,8 +3,10 @@ package br.com.powernepo.pontoetg.source.repository
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
+import javax.inject.Inject
 
 class ConnectionRepository{
+
     private var connected : ConnectivityManager
 
     constructor(context:Context){

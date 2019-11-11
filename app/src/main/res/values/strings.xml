@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PontoETG</string>
+
+    <string name="not_connection">Sem conexão</string>
+    <string name="is_connection">Conectando com os servidores, aguarde</string>
+    <string name="not_connection_message">Você esta sem conexão no momento, porfavor se conecte com a internet.</string>
 </resources>

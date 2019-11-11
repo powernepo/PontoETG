@@ -3,7 +3,7 @@
     package="br.com.powernepo.pontoetg">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -11,14 +11,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".core.ETGApplication"
         android:theme="@style/AppTheme">
-        <activity android:name="br.com.powernepo.pontoetg.source.mvp.views.SplashScreenActivity">
+        <activity android:name=".source.mvp.views.NotConnectActivity"></activity>
+        <activity android:name=".source.mvp.views.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".core.services.EventReceiverConnection">
+            <intent-filter>
+                <action android:name="br.com.powernepo.pontoetg.ACTION_NET_VERIFY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
